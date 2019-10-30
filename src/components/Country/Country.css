@@ -1,0 +1,9 @@
+.Artist {
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.Artist:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}

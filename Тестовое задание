@@ -1,0 +1,18 @@
+Задача
+Нужно написать приложение, которое рендерит список объектов карточками.
+
+Детали:
+1. Необходима пагинация;
+2. выводить сообщение «Нет объектов», если API не возвращает объекты;
+3. выводить прелоадер, когда идёт запрос;
+4. React, Redux, react-ui (для react-ui есть готовый пак компонентов: https://github.com/jqestate/react-ui-atoms-css-modules);
+5. Уточнение по поводу фотографий: к ним есть постфикс в виде степени двойки (-64, -128, -256, -512, -1024).
+Получить картинки с api можно по https://images.jqestate.ru/${imageId}-thumbnail-${postfix}
+
+https://images.jqestate.ru/PRI3682-b0233aa7-thumbnail-64
+
+
+API - https://api.jqestate.ru/v1/properties/country
+Пагинация - https://api.jqestate.ru/v1/properties/country?pagination[offset]=32
+
+Можно приложить инструкцию по запуску проекта.
